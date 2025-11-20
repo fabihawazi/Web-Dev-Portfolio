@@ -9,6 +9,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -29,7 +32,15 @@
     background-repeat: no-repeat;
     background-size: 96px, auto;
     background-position: top left, bottom right;
-
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.secton-description{
+    font-size: 18px;
+    color: #757575;
 }
 /* nav styles */
 nav{
@@ -85,8 +96,25 @@ nav li a{
     width: 500px;
 }
 
-
-
+/* main styles */
+main{
+    max-width: 970px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 100px 130px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
 
 
 
